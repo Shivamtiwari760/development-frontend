@@ -1,0 +1,11 @@
+#logo-img-container{
+	height: 100vh;
+	width: 100vw;
+	background-image: url("https://tse4.mm.bing.net/th?id=OIP.g7ZYimFrw8mrl1ti7ZaU0AAAAA&pid=Api&P=0&w=300&h=300");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-clip: padding-box;
+	background-size:contain;
+	background-attachment: fixed;
+	
+}
