@@ -1,0 +1,10 @@
+#div1{
+	height: 100px;
+	width: 100px;
+	min-width:150px ;/* it is a constraint the purpose of this min width is that the width will not fall less than that certain value*/
+	max-width:250px ;
+	background-color: cyan;
+	border: 2px solid blue;
+	overflow: auto;
+}
+/* here we have learnt about min and width, while resizing you generally put some limitations around  some maximum and minimum width and height that we want to acheive, and what if the content is bigger than the box so if that happens so that is the scenario for overflow and in case there is overflow then there is four options that u can actually use of first is visible- let the overflow visible, second is hidden-hide the overflow section whatever part is overflown just part and then , third is scroll in this case you have the scroll bar and finally u have the auto is let browser decide like what  would be done in case of overflow */

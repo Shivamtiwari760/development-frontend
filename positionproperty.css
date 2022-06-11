@@ -1,0 +1,29 @@
+html{
+	font-size: 30px;
+}
+#outer-div{
+	border: 2px solid black;
+	margin: 20px;
+    position: relative;
+}
+#div1{
+	height: 200px;
+	width: 200px;
+	background-color: #393a7b;
+}
+#div2{
+	height: 200px;
+	width: 200px;
+	background-color: orange;
+	position: sticky;
+	left: 20px;/*it will shift 20 units from it normal position*/
+	top: 20px;
+}
+#div3{
+	height: 200px;
+	width: 200px;
+	background-color: maroon;
+}
+/* absolute is positioned with respect to the first position parent, after absolute we are not reserving any position fot te element,means no space is reserved for the element*/
+/* relative is placed as respect to its original position wherre it supposed to be and and the space for the element is reserved in the page layout, whereas in absolute the elements is positioned as respect to  nearest position parent*/
+/* fixed will be used with resoect to the viewput it will be fixed as thiere*/

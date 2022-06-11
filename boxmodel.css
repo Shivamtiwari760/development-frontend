@@ -1,0 +1,12 @@
+#div1{
+	margin:4px;
+	height: 200px;
+	width: 200px;
+	background-color: cyan;
+	border: 2px solid blue;
+	padding: 2px;
+	box-sizing:border-box;
+}
+/* total height of the element is gheight of the borer + the border area and + the padding, and same is the case with width width=width content+border +padding*/
+/* 1) content box model 
+ 2) border box model, in this it contain total heigh and weight of the element that will include the height+ padding + border of the element*/

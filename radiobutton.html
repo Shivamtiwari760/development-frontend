@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<form>
+		<div>
+		<p>Gender</p>
+		<input type="radio"name="gender" value="female" checked>Female<br>
+		<input type="radio"name="gender" value="male">Male<br>
+		<input type="radio"name="gender" value="others">Other<br>
+		<input type="submit">
+        </div>
+        <p>course done</p>
+        <input type="checkbox" name="course"value="c++" checked>
+        c++<br>
+        <input type="checkbox" name="course"value="java" checked>
+        java<br>
+        <input type="checkbox" name="course"value="web development" checked>
+        web development<br>
+
+
+	</form>
+
+</body>
+</html>
+
+<!--
+the input elements are inline elemnts so thats why all radio button are soming in one line , what each button is signify we dont know so we have to specify that, here , genrally the purpose of form to collect the data and forward it right, so we can do the setting like among male, femal and other only one will be selected by using the name, the format in whcih form passes the data is fixed name="value if I have to collect the data in this simple form then , the details that I am collecting is regarding the gender, thereforee i have to collect this data and formward it further gender here the name attribute is gender that is why and it is same for all the three options, because one among them will be forwarded further, if we select the female than like name=value, gender
+just selecting female doesnt pass the value, whicch have to specify he what value does this radio button has so we need to add value as well, now whatever you want to acheive is complete,adding radio buttons u need to have radio type input, other than type we have name and name will group these together, every radio button has name and value associated with it, because when u will select that value that value is being passed , so need to associate name and value, in many of the forms one among these radio buttons is checked itself if u wanted to do that then, there is a checked attribute for that, checked is also an boolean attribute so writing checked will work itself
+now checkboxes are generally used when u want a user to select more than one options from the available opions, we can also create multiple checkboxes here,they provide multiple select options
+and we can uncheck box also write, if I have to uncheck i have to select any other options in female wala part, thats what the exactly the behavior of checkboxes, in cehckboxes name here is just solving the purpose like ehat should be the name that should be forwarded, so name in case of radio button is actually so we were group radio buttons together via, name but that not the codition in case of chekboxes, in checkboxes we genrally , checkboxes alow the userr to select the multiple choices, name is serving like whenever tha data forwarded we will be using tha name corresponding to that, if wyou wnat to checkbox selected by default than we can used the checked option, so the default value is been selected there i all checked-->
+<!-- select, text area and button radiobutton, checkbox and droplist is generally used when u wanted to user to slecet among several option so we prefe radio button and checkboxes if the number of options among which user has to choose not very large within 6 or 7 but if the number is more than that we dont gerally prefer too many radio buttons and checkboxes instead we prefer the dropdown list, now exactly the drop down list is-->

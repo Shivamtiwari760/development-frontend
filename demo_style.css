@@ -1,0 +1,11 @@
+p{
+	color: blue;
+}
+.color-red{
+	color: red;
+}
+#para-id{
+	color: purple;
+}
+/*if there is a type selector and class selector the class selector wins
+and if there is class,type and Id selector then id selector will win*/

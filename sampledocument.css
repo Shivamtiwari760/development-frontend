@@ -1,0 +1,16 @@
+/*#container{
+	width: 400px;
+	height: 400px;
+	margin: 40px;
+	border: 2px solid black;
+	/*overflow-wrap: break-word;*/
+	/*background-image: linear-gradient(180deg,red,cyan 30px ,blue 200px);*/
+	/*background: repeating-linear-gradient(to top right, red,blue 10px);*/
+	/*background: radial-gradient(cyan 80px,red,blue);
+}*/
+a:active{
+	color:red;
+}
+p:active{
+	background-color: cyan;
+}
