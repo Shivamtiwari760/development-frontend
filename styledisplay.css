@@ -1,0 +1,19 @@
+#div1{
+	background-color:red;
+	height: 200px;
+	width: 200px;
+}
+#div2{
+	background-color:cyan;
+	height: 200px;
+	width: 200px;
+	margin-left: -4px;
+}
+span{
+	display: block;
+}
+/*inline means the character should be in one in one line and the bock would means that the element should be i another line thats what we use the block, you cannot set the height nad width for the inline elements because it has the and you cananot give the vertical margin and padding as well to the inline elements-->*/
+div{
+	display: inline-block;
+}
+/* if we want to use the all the property of the inline and block the we can use the inlin-block so we can use the both of them and we can set height width, padding and margin as well*/

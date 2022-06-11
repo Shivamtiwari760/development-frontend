@@ -1,0 +1,47 @@
+p{
+	color:blue;
+	font-size:20px;
+	/*font-family:cursive;*/
+}
+h1{
+	font-size:40px;
+	/*font-family: sans-serif;*/
+}
+h1{
+	text-transform: uppercase;
+	/*font-family: sans-serif;*/
+	}
+h1,p{
+	font-family:sans-serif;
+}
+#blog-title:hover{
+	color: orange;
+}
+
+/*
+.uppercase{
+	text-transform: uppercase;
+}
+.cursive{
+	font-family: cursive;
+}*/
+li h4{
+	text-transform: uppercase;
+	font-family: cursive;
+}
+#site-desc p{
+    color: red;
+}
+#blog-desc{
+color:red;
+}
+
+/*see now css file in a seperate file right so these files are interlined together for linking these two we actually need the linking tag, just use the lik rel and other things and later just specify the path to the file from nowonwnwartds we were prefering the external css so that keeping the html and css files in the seperate files
+just to make it more cleaner so that u can apply*/
+/* in zuru classes we just put the  zuru class that we will dscuss is hour the id blog that we discuss is the houring just means simply placing mouse simply over that element when you hour over the element the colour of the element changes right*/
+/* hover is the feature after applying it we can just do the on placing  mouse on any of text this that willl sgow the color that we have set it for but default it will none bblack but as sson as we put our mouse on it it wil chnage the color of that*/
+
+
+background-color{
+	color: red;
+}

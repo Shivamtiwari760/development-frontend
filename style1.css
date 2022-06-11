@@ -1,0 +1,52 @@
+/*we can change the rem value suppose we have the*/
+html{
+	font-size:30px;
+}/*rem is relative to the root element ew genrallly use the rem wehen we generally design*/
+#div1{
+	height:4rem;
+	/*100vh;/* is I want the height to complete occupy th height the hieght then I would rem is related to root and em is relted to parent,so 1 em will be equivalent to the font size of the element or the*/
+	/*200px;*/
+	width: 6rem;
+	/*
+	100vw;
+	/*300px;*/
+	background-color:#393a7b;
+	/*rgb(25,136,200,0.4);
+	/*hsl(240,85,80);
+	/*rgb(25,136,200,0.4);
+	/*
+	#2200ff;rgb value is hexadecimal*/
+	/*border-width:2px 4px 6px 8px;/* always the order is top rigt bottom and left*/
+	/*border-style:dotted; 
+	border-color:#ff9800;, instred of writing ach line in a seperate we can easilty combine  themm*/
+     border: 4px solid red;
+     border-radius:4px;
+}
+#div2{
+	height:50%;/* this is related to the height of the parent*/
+	width:50%;/* this is related to the the width of the parent*/
+	background-color:cyan;
+}
+#sample-para{
+/*border: 2px solid red;*/
+border-left:4px s
+}
+#sample-para{
+	font-size: 30px;
+	color: #00a1ff;
+	font-weight:700;
+	text-align:right ;
+	font-family: cursive;
+	line-height:30px ;
+	text-transform:uppercase ;
+	text-decoration:underline ;
+}
+
+/* you can specify the color in the hexadecimal codes that is called as hex codes hex code is some calue followed by # 6 digit value 2 digit each for red, green and blue the range of the zero is from 0-255, and what percentage of greeen you want so another value is from 0-255 for green so these number are in the hexadecimal codes, so the hexadecimal are base 16 system
+/* we can also specif the diret rgb value, another al;trnative for rgb is rgba this will require another value and that is alpha, alphas is opaqucity how opaque you want is to come if it is zro value of a then the background is totally white andhaving no color, and the opacity value is between the 0-1 the value cant exceed this number , rgb stands for ratio of red green and blue is and rgb is adding a opacity to it as well, nect after rgba you can specify the hsl value as well, hsl hue, saturation and lightnesss at which degree and angle you want to specify,hsla means you ave adedes the alphas as well hue value is 120,240 and some other but the saturation andlight value is from the 0-100% we can specify the any valueto it and it will do the rest of the work
+we have used the various methods to add the color 1) name
+2) hex value 3) rgb method 4) rgba 5)hsl 6) hsla
+these are the various mathods to apply the color to the html element
+% in terms of parent and vh in terms of view put  in terms of
+netxt unit is the rem is the relative to the font-size if the relative element of the page
+1 rem= font size of the root, so whatever  is the font size  of the root 1 rem will be that value

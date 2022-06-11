@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>learning tables</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<table border="2"><!-- if we can increase the value of 2 to 4 then it will increase the thicknesss of the border so you canchoose acxordingly like what thicknees you want-->
+		<caption>Demo table</caption>
+	<tr>
+
+		<th>  </th>
+		<th colspan="2">column1</th>
+		<th>column2 </th>
+		<!--<th>column3 </th>-->
+
+<!-- here td can be replace by using the th-->
+	</tr>
+	<tr>
+		<th rowspan="2">row1</th><!-- row 1 is spanning over next two rows obviously next rows had 4 data entry-->
+		<td> cell 1,1</td>
+		<td>cell 1,2</td>
+		<td>cell 1,3</td>
+
+	</tr>
+	<tr>
+		<!--<th>row2</th> this I dont want for the second row becasue  I have applied the rowspan in that, so u ahve a column spanning over multiple columsns and one rows spanning over multiple rows-->
+		<td> cell 2,1</td>
+		<td>cell 2,2</td>
+		<td>cell 2,3</td>
+
+	</tr>
+	<tr>
+		<th>row3</th>
+		<td> cell 3,1</td>
+		<td>cell 3,2</td>
+		<td>cell 3,3</td>
+
+
+
+
+	</tr>
+
+
+
+
+
+
+
+	</table>
+</body>
+</html>
+<!-- in order to add the table in your html page u need to use the table element, we have to add atblw we need this table element now, a table contains some rows in order to use the one row, we would need table row element <tr> </tr, so that means if there are 4 rows in a table then I need 4 opening and closing table row element tag, now in order to add the data in the table we have to add the  data in  every row, for adding data in one row you have to use the table data <td> </td> tag -->
+	<!-- if u want to show the row and column in bold so that we can use the table headfer tag like <th> and </th>-->
+	<!-- after changing the td to th the table data become the table header and the font will become the bold-->
+	<!-- till no we have seen what are table tag, if we want to add the table you need table tag, now for every row n table you need table row tr, for every element and fior every data under row you need td tag, some elements which can serve as header than u can use the th tag, if we want ot add the border to our table we can do that by suing the border attribute, table attribute has a tag called border attribute and u have to provide a number here-->
+	<!-- now another thing that we are missing is the tittle of the table so this table needs a tittole right as well so in order to add the tittle of table is the tag we have is caption, caption element is just next to be table element-->
+	<!-- I hope the things were pretty simple table tag, table data then table row, table header , capion to the table and border attribute-->
+	<!-- there are more than attributes around table and  ahve you many time seen there there is only on row in many of the column and that spans over multiple column , so one rows spans over multiple rows,if you want actually one column actually one entry to span over two column, then we hacve one attribute called as column span attribute, ater doin this he sepertaion between the first column is not now , so by using this we can change the for column for the subtittle of column 1  and column 2, and column 3 is pushed aside the pretty much , so that we can comment the table 3 which will looks more clear
+		for example if I want row no 1 to span over first two rows then I can use the rowspan  for that
